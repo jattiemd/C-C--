@@ -26,7 +26,7 @@ int main()
 		cout << "------------------------\n";
 		cout << "1. Play Higher or Lower\n";
 		cout << "2. Play Paper-Scissors-Rock\n";
-		cout << "3. Play guess the number of fingers\n";
+		cout << "3. Play Hidden Fingers\n";
 		cout << "4. Quit\n";
 		cout << "------------------------\n\n";
 		cout << "Enter Here: "; cin >> choice; cout << endl;
@@ -153,7 +153,7 @@ void numOfFingers()
 	int numOfFingers = rand() % 5 + 1;
 	int guess;
 
-	cout << "Welcome to Guess the Number of Fingers\n";
+	cout << "Welcome to Hidden Fingers\n";
 	cout << "My hand is hiding a number of fingers\n";
 	cout << "Guess the number of fingers that I am hiding\n";
 	cout << "Enter Here: "; cin >> guess;
